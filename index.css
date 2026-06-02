@@ -1,5 +1,19 @@
-html, body {
+* , *::before , *::after {
+  box-sizing: border-box;
+}
+
+
+:root{
+    --background-color:whitesmoke;
+    --text-color:#000000;
+}
+
+body{
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: 'Source Sans Pro', sans-serif;
     margin: 0;
     padding: 0;
 }
+
 
