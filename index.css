@@ -86,3 +86,14 @@ p{
     height: 375px;
 }
 
+.profile-footer{
+    margin: 21px 19px 16px 10px;
+}
+
+.react-container{
+    display: flex;
+    width: 104px;
+    height: 22px;
+    gap: 20px;
+}
+
