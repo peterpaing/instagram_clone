@@ -47,22 +47,23 @@ header{
 
 .profile-header{
     display: flex;
+    width: 348px;
+    height: 34px;
+    margin-top: 10px;
+    margin-bottom: 11px;
+    margin-left: 10px;
     align-items: center;
+
 }
 .poster-profile{
     width: 34px;
     height: 34px;
     border-radius: 50%;
-    opacity: 1;
-    margin-top: 10px;
-    margin-left: 10px;
-    
 }
 
 p{
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 700;
-    font-style: Bold;
     font-size: 13px;
     line-height: 100%;
     letter-spacing: 0%;
@@ -75,7 +76,6 @@ p{
     display: block;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
-    font-style: Regular;
     font-size: 12px;
     line-height: 100%;
     letter-spacing: 0%;
@@ -84,6 +84,5 @@ p{
 .profile-content img{
     width: 375px;
     height: 375px;
-    top: 55px;
-
 }
+
