@@ -5,10 +5,10 @@
 ::-webkit-scrollbar { display: none; }
 
 :root{
-    --whole-color:#EDEDED;
-    --background-color:#ffffff;
-    --text-color:#000000;
-    --border-color:#C6C6C6;
+  --whole-color:#EDEDED;
+  --background-color:#ffffff;
+  --text-color:#000000;
+  --border-color:#C6C6C6;
 }
 
 body {
@@ -17,13 +17,11 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   margin: 0 auto; 
   padding: 0;
-  width: 100%;
   max-width: 375px; 
   min-height: 100vh;
 }
 
 header {
-  width: 100%;
   height: 67px;
   display: flex;
   justify-content: space-between;
@@ -33,87 +31,85 @@ header {
   background-color: var(--background-color);
 }
 
-.logo{
-    width: 127px;
-    height: 33px;
+.logo {
+  width: 127px;
+  height: 33px;
 }
-.profile-img{
-    width: 34px;
-    height: 34px;
-    border-radius: 50%;
- }
+
+.profile-img {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+}
 
 .profile {
-  width: 100%;
   background-color: var(--background-color);
   margin-bottom: 25px;
 }
 
-.profile-header{
-    display: flex;
-    width: 348px;
-    height: 34px;
-    padding-top: 11px;
-    margin-bottom: 11px;
-    padding-left: 10px;
-    align-items: center;
-
-}
-.poster-profile{
-    width: 34px;
-    height: 34px;
-    border-radius: 50%;
+.profile-header {
+  display: flex;
+  width: 348px;
+  height: 34px;
+  padding-top: 11px;
+  margin-bottom: 11px;
+  padding-left: 10px;
+  align-items: center; 
 }
 
-.profile-header p{
-    font-weight: 700;
-    font-size: 13px;
-    line-height: 100%;
-    margin-left: 7px;
-    margin-top: 11px;
-    width: 307px;
-    height: 16px;
-}
-.poster-location{
-    display: block;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 100%;
-    letter-spacing: 0%;
-    margin-top: 3px;
-    margin-bottom: 13px;
+.poster-profile {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
 }
 
-.profile-content img{
-    width: 100%;
-    height: auto;
+.profile-header p {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 100%;
+  margin-left: 7px;
+  width: 307px;
+  height: 16px; 
 }
 
-.profile-footer{
-    margin: 21px 19px 16px 10px;
+.poster-location {
+  display: block;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  margin-top: 3px;
+  margin-bottom: 13px;
 }
 
-.react-container{
-    display: flex;
-    width: 104px;
-    height: 22px;
-    gap: 20px;
-    margin-left: 5px;
+.profile-content img {
+  width: 100%;
+  height: auto;
+}
+
+.profile-footer {
+  margin: 21px 19px 16px 10px;
+}
+
+.react-container {
+  display: flex;
+  width: 104px;
+  height: 22px;
+  gap: 20px;
+  margin-left: 5px;
 }
 
 .likes-comments {
-    padding-top: 11px;
-    font-size: 13px;
-    line-height: 100%;
-    
+  padding-top: 11px;
+  font-size: 13px;
+  line-height: 100%;
 }
-.likes-comments p{
-    font-weight: 700;
-     margin: 0; 
-     padding-bottom: 15px;
-     
+
+.likes-comments p {
+  font-weight: 700;
+  margin: 0; 
+  padding-bottom: 15px;
 }
-.likes-comments span{
-    font-weight: normal;
+
+.likes-comments span {
+  font-weight: normal;
 }
