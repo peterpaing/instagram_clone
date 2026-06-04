@@ -28,7 +28,9 @@ const posts = [
     }
 ]
 
+
 const postsContainer = document.querySelector(".posts")
+
 
 function renderPosts() {
     let postHTML = ""
@@ -45,7 +47,7 @@ function renderPosts() {
             </div>
 
             <div class="profile-content">
-                <img src="${post.post}" alt="Post Image">
+                <img src="${post.post}" alt="Post Image" >
             </div>
 
             <div class="profile-footer">
@@ -67,3 +69,8 @@ function renderPosts() {
     postsContainer.innerHTML = postHTML
 }
 renderPosts()
+
+
+
+
+
