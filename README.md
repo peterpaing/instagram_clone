@@ -52,6 +52,11 @@ Oldagram/
 
 ##
 
+## Mobile Pre-view
+
+![Oldagram Screenshot](images/mobile-preview.png)
+
+
 ## Getting Started
 
 1. Clone the repository
