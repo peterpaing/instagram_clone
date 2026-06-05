@@ -32,12 +32,13 @@ const posts = [
 const postsContainer = document.querySelector(".posts")
 
 
+
 function renderPosts() {
     let postHTML = ""
 
     for (const post of posts) {
         postHTML += `
-        <section class="profile">
+        <div class="profile">
             <div class="profile-header">
                 <img src="${post.avatar}" alt="Avatar Image" class="poster-profile">
                 <p>
@@ -62,13 +63,14 @@ function renderPosts() {
                     <p>${post.username}<span> ${post.comment}</span></p>
                 </div>
             </div>
-        </section>
+        </div>
         `
     }
 
     postsContainer.innerHTML = postHTML
 }
 renderPosts()
+
 
 
 
