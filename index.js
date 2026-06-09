@@ -7,9 +7,11 @@ document.addEventListener('click' , function (e){
         if(e.target.dataset.like){
             countLike (e.target.dataset.like)
         }
-})
 
-        function countLike(likItem){
+ 
+}) 
+function countLike(likItem){
+            
         const targetObject = posts.filter(function (tweet){
             return likItem===tweet.uuid
         })[0]
@@ -24,10 +26,13 @@ document.addEventListener('click' , function (e){
         renderPosts()
         }
 
+        
+
 function renderPosts() {
     let postHTML = ""
 
     for (const post of posts) {
+      
         postHTML += `
         <div class="profile">
             <div class="profile-header">
@@ -44,7 +49,7 @@ function renderPosts() {
 
             <div class="profile-footer">
                 <div class="react-container">
-                    <img src="images/icon-heart.png" alt="Heart Icon" data-like=${post.uuid} >
+                    <img src="images/icon-heart.png" alt="Heart Icon"  data-like=${post.uuid} >
                     <img src="images/icon-comment.png" alt="Comment Icon">
                     <img src="images/icon-dm.png" alt="Share Icon">
                 </div>
